@@ -5,3 +5,25 @@ full: Scribe client library
 description: Packaged version of the PHP Scribe client.
 list: dev
 type: library
+homepage: https://www.horde.org/libraries/Horde_Scribe
+authors:
+  -
+    name: Chuck Hagenbuch
+    user: chuck
+    email: chuck@horde.org
+    active: true
+    role: lead
+version:
+  release: 2.0.4
+  api: 1.0.0
+state:
+  release: stable
+  api: stable
+license:
+  identifier: Apache 2.0
+  uri: http://www.horde.org/licenses/apache
+dependencies:
+  required:
+    php: ^5.3 || ^7
+    pear:
+      pear.horde.org/Horde_Thrift: '*'
