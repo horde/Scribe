@@ -21,7 +21,6 @@
  </stability>
  <license uri="http://www.horde.org/licenses/apache">Apache 2.0</license>
  <notes>
-* 
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
@@ -272,7 +271,6 @@
    <date>2017-10-17</date>
    <license uri="http://www.horde.org/licenses/apache">Apache 2.0</license>
    <notes>
-* 
    </notes>
   </release>
  </changelog>
