@@ -10,7 +10,7 @@
   <email>chuck@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2017-09-19</date>
+ <date>2017-10-30</date>
  <version>
   <release>2.0.4</release>
   <api>1.0.0</api>
@@ -31,6 +31,7 @@
       <dir name="examples">
        <file name="scribe.php" role="doc" />
       </dir> <!-- /doc/Horde/Scribe/examples -->
+      <file name="CHANGES" role="doc" />
       <file name="COPYING" role="doc" />
      </dir> <!-- /doc/Horde/Scribe -->
     </dir> <!-- /doc/Horde -->
@@ -73,6 +74,7 @@
  </dependencies>
  <phprelease>
   <filelist>
+   <install as="CHANGES" name="doc/Horde/Scribe/CHANGES" />
    <install as="COPYING" name="doc/Horde/Scribe/COPYING" />
    <install as="examples/scribe.php" name="doc/Horde/Scribe/examples/scribe.php" />
    <install as="Horde/Scribe.php" name="lib/Horde/Scribe.php" />
@@ -269,7 +271,7 @@
    <stability>
     <release>stable</release>
     <api>stable</api></stability>
-   <date>2017-09-19</date>
+   <date>2017-10-30</date>
    <license uri="http://www.horde.org/licenses/apache">Apache 2.0</license>
    <notes>
 * 
