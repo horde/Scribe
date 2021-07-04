@@ -8,11 +8,11 @@
   <name>Chuck Hagenbuch</name>
   <user>chuck</user>
   <email>chuck@horde.org</email>
-  <active>yes</active>
+  <active>no</active>
  </lead>
- <date>2017-11-11</date>
+ <date>2021-07-04</date>
  <version>
-  <release>2.0.4</release>
+  <release>3.0.0alpha1</release>
   <api>1.0.0</api>
  </version>
  <stability>
@@ -21,7 +21,7 @@
  </stability>
  <license uri="http://www.horde.org/licenses/apache">Apache 2.0</license>
  <notes>
-* 
+* [rla] Package for H6 / composer installer
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
@@ -59,17 +59,13 @@
  <dependencies>
   <required>
    <php>
-    <min>5.3.0</min>
+    <min>7.0.0</min>
     <max>8.0.0alpha1</max>
     <exclude>8.0.0alpha1</exclude>
    </php>
    <pearinstaller>
     <min>1.7.0</min>
    </pearinstaller>
-   <package>
-    <name>Horde_Thrift</name>
-    <channel>pear.horde.org</channel>
-   </package>
   </required>
  </dependencies>
  <phprelease>
@@ -163,10 +159,12 @@
   <release>
    <version>
     <release>1.0.1</release>
-    <api>1.0.0</api></version>
+    <api>1.0.0</api>
+   </version>
    <stability>
     <release>stable</release>
-    <api>stable</api></stability>
+    <api>stable</api>
+   </stability>
    <date>2011-07-27</date>
    <license uri="http://www.horde.org/licenses/apache">Apache 2.0</license>
    <notes>
@@ -176,10 +174,12 @@
   <release>
    <version>
     <release>1.0.2</release>
-    <api>1.0.0</api></version>
+    <api>1.0.0</api>
+   </version>
    <stability>
     <release>stable</release>
-    <api>stable</api></stability>
+    <api>stable</api>
+   </stability>
    <date>2012-04-10</date>
    <license uri="http://www.horde.org/licenses/apache">Apache 2.0</license>
    <notes>
@@ -189,10 +189,12 @@
   <release>
    <version>
     <release>2.0.0alpha1</release>
-    <api>1.0.0</api></version>
+    <api>1.0.0</api>
+   </version>
    <stability>
     <release>alpha</release>
-    <api>stable</api></stability>
+    <api>stable</api>
+   </stability>
    <date>2012-07-05</date>
    <license uri="http://www.horde.org/licenses/apache">Apache 2.0</license>
    <notes>
@@ -202,10 +204,12 @@
   <release>
    <version>
     <release>2.0.0beta1</release>
-    <api>1.0.0</api></version>
+    <api>1.0.0</api>
+   </version>
    <stability>
     <release>beta</release>
-    <api>stable</api></stability>
+    <api>stable</api>
+   </stability>
    <date>2012-07-19</date>
    <license uri="http://www.horde.org/licenses/apache">Apache 2.0</license>
    <notes>
@@ -215,10 +219,12 @@
   <release>
    <version>
     <release>2.0.0</release>
-    <api>1.0.0</api></version>
+    <api>1.0.0</api>
+   </version>
    <stability>
     <release>stable</release>
-    <api>stable</api></stability>
+    <api>stable</api>
+   </stability>
    <date>2012-10-30</date>
    <license uri="http://www.horde.org/licenses/apache">Apache 2.0</license>
    <notes>
@@ -228,10 +234,12 @@
   <release>
    <version>
     <release>2.0.1</release>
-    <api>1.0.0</api></version>
+    <api>1.0.0</api>
+   </version>
    <stability>
     <release>stable</release>
-    <api>stable</api></stability>
+    <api>stable</api>
+   </stability>
    <date>2012-11-22</date>
    <license uri="http://www.horde.org/licenses/apache">Apache 2.0</license>
    <notes>
@@ -241,10 +249,12 @@
   <release>
    <version>
     <release>2.0.2</release>
-    <api>1.0.0</api></version>
+    <api>1.0.0</api>
+   </version>
    <stability>
     <release>stable</release>
-    <api>stable</api></stability>
+    <api>stable</api>
+   </stability>
    <date>2015-01-09</date>
    <license uri="http://www.horde.org/licenses/apache">Apache 2.0</license>
    <notes>
@@ -254,10 +264,12 @@
   <release>
    <version>
     <release>2.0.3</release>
-    <api>1.0.0</api></version>
+    <api>1.0.0</api>
+   </version>
    <stability>
     <release>stable</release>
-    <api>stable</api></stability>
+    <api>stable</api>
+   </stability>
    <date>2017-09-19</date>
    <license uri="http://www.horde.org/licenses/apache">Apache 2.0</license>
    <notes>
@@ -267,14 +279,31 @@
   <release>
    <version>
     <release>2.0.4</release>
-    <api>1.0.0</api></version>
+    <api>1.0.0</api>
+   </version>
    <stability>
     <release>stable</release>
-    <api>stable</api></stability>
-   <date>2017-11-11</date>
+    <api>stable</api>
+   </stability>
+   <date>2017-10-17</date>
    <license uri="http://www.horde.org/licenses/apache">Apache 2.0</license>
    <notes>
 * 
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>3.0.0alpha1</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2021-07-04</date>
+   <license uri="http://www.horde.org/licenses/apache">Apache 2.0</license>
+   <notes>
+* [rla] Package for H6 / composer installer
    </notes>
   </release>
  </changelog>
