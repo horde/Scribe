@@ -60,8 +60,8 @@
   <required>
    <php>
     <min>7.0.0</min>
-    <max>8.0.0alpha1</max>
-    <exclude>8.0.0alpha1</exclude>
+    <max>9.0.0alpha1</max>
+    <exclude>9.0.0alpha1</exclude>
    </php>
    <pearinstaller>
     <min>1.7.0</min>
@@ -327,8 +327,8 @@
     <api>1.0.0</api>
    </version>
    <stability>
-    <release>alpha</release>
-    <api>alpha</api>
+    <release>stable</release>
+    <api>stable</api>
    </stability>
    <date>2021-07-04</date>
    <license uri="http://www.horde.org/licenses/apache">Apache 2.0</license>

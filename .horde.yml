@@ -24,6 +24,6 @@ license:
   uri: http://www.horde.org/licenses/apache
 dependencies:
   required:
-    php: ^7
+    php: ^7 || ^8
     composer:
       horde/thrift: '*'
