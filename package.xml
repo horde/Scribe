@@ -12,7 +12,7 @@
  </lead>
  <date>2021-07-04</date>
  <version>
-  <release>3.0.0alpha2</release>
+  <release>3.0.0alpha3</release>
   <api>1.0.0</api>
  </version>
  <stability>
@@ -80,21 +80,6 @@
   </filelist>
  </phprelease>
  <changelog>
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
   <release>
    <version>
     <release>1.0.0alpha1</release>
@@ -327,8 +312,24 @@
     <api>1.0.0</api>
    </version>
    <stability>
-    <release>stable</release>
-    <api>stable</api>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2021-07-04</date>
+   <license uri="http://www.horde.org/licenses/apache">Apache 2.0</license>
+   <notes>
+* [rla] Nominally release for PHP 8.
+* |+
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>3.0.0alpha3</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
    </stability>
    <date>2021-07-04</date>
    <license uri="http://www.horde.org/licenses/apache">Apache 2.0</license>
